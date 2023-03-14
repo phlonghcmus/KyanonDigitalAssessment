@@ -9,7 +9,7 @@ import { DefaultLayout } from '../_layout';
 const App = () => {
   return (
     <Router>
-      <div className="App">
+      <div>
         <Routes>
           {routes.map((route, index) => {
             let Auth: React.FC<{ children?: React.ReactNode }> = Fragment;
