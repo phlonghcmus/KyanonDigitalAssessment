@@ -10,8 +10,8 @@ interface route {
   layout?: null | (() => JSX.Element);
 }
 const routes: route[] = [
-  { path: '/', component: Home, layout: null },
-  { path: '/profile', component: Profile, layout: null },
+  { path: '/', component: Home, layout: null, auth: false },
+  { path: '/profile', component: Profile, layout: null, auth: true },
 ];
 
 export { routes };

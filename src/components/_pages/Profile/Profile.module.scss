@@ -20,7 +20,8 @@
   }
   input[type='text'],
   input[type='password'],
-  input[type='date'] {
+  input[type='date'],
+  input[type='number'] {
     font-size: 12px;
     font-weight: 600;
     color: black;
@@ -48,6 +49,7 @@
   }
   input[type='submit'],
   input[type='button'] {
+    cursor: pointer;
     font-weight: 600;
     font-size: 1rem;
     color: white;
@@ -55,9 +57,12 @@
     background-color: #2e09db;
     border-radius: 4px;
     border: none;
-    &.action-cancel {
+    &.action-cancel,
+    &.action-logout {
       background-color: rgba(167, 170, 175, 0.3);
       color: #2e09db;
+    }
+    &.action-cancel {
       margin-left: 12px;
     }
   }
@@ -68,7 +73,7 @@
 .action {
   display: flex;
   flex-direction: row;
-  justify-content: end;
+  justify-content: space-between;
   margin-top: 20px;
 }
 @media (max-width: 739px) {

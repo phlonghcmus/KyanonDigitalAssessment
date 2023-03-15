@@ -2,7 +2,7 @@ import React from 'react';
 import { Fragment } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
-import { routes } from '../_routes';
+import { NoAuthRoute, routes } from '../_routes';
 import { AuthRoute } from '../_routes';
 import { DefaultLayout } from '../_layout';
 
@@ -13,7 +13,9 @@ const App = () => {
         <Routes>
           {routes.map((route, index) => {
             let Auth: React.FC<{ children?: React.ReactNode }> = Fragment;
-            if (route.hasOwnProperty('auth')) if (route.auth) Auth = AuthRoute;
+            if (route.hasOwnProperty('auth'))
+              if (route.auth) Auth = AuthRoute;
+              else Auth = NoAuthRoute;
             const Page = route.component;
             let Layout = DefaultLayout;
             if (route.layout) {
