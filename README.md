@@ -40,7 +40,7 @@ Password : kyanondigital
 
 1. Clone the repository \
    `git@github.com:phlonghcmus/KyanonDigitalAssessment.git` \
-   `cd KyanonDigitalAssessment` \
+   `cd KyanonDigitalAssessment`
 2. Set up project \
    `npm install`
 
