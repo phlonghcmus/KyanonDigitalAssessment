@@ -13,10 +13,16 @@ This project is a [Kyanon Digital] K-Fresh Frontend Project. It was bootstrapped
 
 ## Criteria
 
--[x] Use a framework (React, Angular, Vue or Vanilla) -[x] Do not use UI libraries such as Tailwind or Bootstrap. Use CSS, SCSS or LESS instead. -[ ] Use animations (can use existing animation libraries) - optional -[x] Display the page on multiple screens (responsive) - optional -[x] Use TypeScript - optional -[ ] Use unit testing for the project (Jest or testing libraries of the used library/framework) -
-optional
+- [x] Use a framework (React, Angular, Vue or Vanilla)
+- [x] Do not use UI libraries such as Tailwind or Bootstrap. Use CSS, SCSS or LESS instead
+- [ ] Use animations (can use existing animation libraries) - optional
+- [x] Display the page on multiple screens (responsive) - optional
+- [x] Use TypeScript - optional -[ ] Use unit testing for the project (Jest or testing libraries of the used library/framework) -
+      optional
 
 ## Demo
+
+https://user-images.githubusercontent.com/66561351/225546579-65422c7f-c76a-40da-9de3-5fff96b249de.mp4
 
 ## Account Demo
 
@@ -26,10 +32,10 @@ Email :
 
 ### Setup project
 
-1. Clone the repository
-   `git@github.com:phlonghcmus/KyanonDigitalAssessment.git`
-   `cd KyanonDigitalAssessment`
-2. Set up project
+1. Clone the repository \
+   `git@github.com:phlonghcmus/KyanonDigitalAssessment.git` \
+   `cd KyanonDigitalAssessment` \
+2. Set up project \
    `npm install`
 
 ### Running Project
