@@ -17,8 +17,13 @@ This project is a [Kyanon Digital] K-Fresh Frontend Project. It was bootstrapped
 - [x] Do not use UI libraries such as Tailwind or Bootstrap. Use CSS, SCSS or LESS instead
 - [ ] Use animations (can use existing animation libraries) - optional
 - [x] Display the page on multiple screens (responsive) - optional
-- [x] Use TypeScript - optional -[ ] Use unit testing for the project (Jest or testing libraries of the used library/framework) -
+- [x] Use TypeScript - optional -
+- [ ] Use unit testing for the project (Jest or testing libraries of the used library/framework) -
       optional
+
+## AuthenticationFlow
+
+[AuthenticationFlow.pdf](https://github.com/phlonghcmus/KyanonDigitalAssessment/files/10988025/AuthenticationFlow.pdf)
 
 ## Demo
 
@@ -26,7 +31,8 @@ https://user-images.githubusercontent.com/66561351/225546579-65422c7f-c76a-40da-
 
 ## Account Demo
 
-Email :
+Email : kyanondigital@gmail.com \
+Password : kyanondigital
 
 ## Installion
 
