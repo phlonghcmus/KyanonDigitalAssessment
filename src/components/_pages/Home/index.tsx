@@ -22,7 +22,7 @@ const Home = () => {
         onSubmit={async (e) => {
           e.preventDefault();
           let err = await logInWithEmailAndPassword(email, password);
-          if (err) setErr('Tài khoản và mật khẩu không đúng');
+          if (err) setErr('Username/Password invalid');
           else {
             let { fullName, birth, email, phoneNumber } = await getUserById(
               auth.currentUser?.uid
